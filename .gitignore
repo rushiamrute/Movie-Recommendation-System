@@ -1,1 +1,45 @@
 env
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# VSCode settings
+.vscode/
+
+# Streamlit's temporary files
+.streamlit/
+
+# Data & model files (adjust as needed)
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git LFS metadata (if using)
+*.gitattributes
+
+# Log files
+*.log
+
+# Ignore any secret credentials
+*.env
